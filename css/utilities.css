@@ -1,0 +1,54 @@
+
+
+/* CSS Document */
+
+a { text-decoration:none}
+a:hover { text-decoration:none; color:#088FFF}
+a:focus { outline:none}
+img:focus { outline:none}
+
+.shadow-focus-none:focus { box-shadow:none; }
+.border-color-gray:focus {border-color:#ced4da;}
+
+.bg-light-gray  { background:#f3f6fb }
+.blue-shadow { box-shadow:0 0.5px 14px rgba(4,108,155,0.30 )!important}
+.text-dark-blue { color:#021D33 }
+
+
+
+.border-radius-5 {border-radius: 5px; }
+.border-radius-10 {border-radius: 10px; }
+.border-radius-15 {border-radius: 15px; }
+.border-radius-24 {border-radius: 24px; }
+.custom-radius-01 { border-radius:0px 10px 10px 0px}
+
+.bg-blue {   background-color:#7cabce;   }
+.btn-primary {    color: #fff;    background:transparent linear-gradient(105deg, #58B3FF 0%, #088FFF 100%) 0% 0% no-repeat padding-box;  border-color:#088FFF;}
+.btn-primary:hover {    color: #fff;    background-color: #6494b7;    border-color: #6494b7; }
+
+
+
+.custom-border-grey { border:1px solid #dee2e6}
+
+.fs-14 { font-size:14px;}
+.fs-16 { font-size:16px;}
+.fs-18 { font-size:18px;}
+.fs-20 { font-size:20px;}
+
+
+.fw-100 { font-weight:100;}
+.fw-300 { font-weight:300;}
+.fw-400 { font-weight:400;}
+.fw-500 { font-weight:500;}
+.fw-700 { font-weight:700;}
+.fw-800 { font-weight:800 !important;}
+
+
+.text-gray { color:#677785}
+.text-black { color:#000}
+
+
+.line-height-normal { line-height:normal}	
+textarea { resize:none}
+
+	

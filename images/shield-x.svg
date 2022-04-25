@@ -1,0 +1,5 @@
+<svg id="shield-x" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <path id="Path_3298" data-name="Path 3298" d="M0,0H64V64H0Z" fill="none"/>
+  <path id="Path_3299" data-name="Path 3299" d="M26.979,3a32,32,0,0,0,22.667,8A32,32,0,0,1,26.979,51,32,32,0,0,1,4.312,11,32,32,0,0,0,26.979,3" transform="translate(5.021 5)" fill="none" stroke="#354a5c" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <path id="Path_3300" data-name="Path 3300" d="M0,0,10.667,10.667M10.667,0,0,10.667" transform="translate(32 24.458) rotate(45)" fill="none" stroke="#354a5c" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+</svg>

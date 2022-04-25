@@ -1,0 +1,7 @@
+<svg id="mood-sad" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <path id="Path_2768" data-name="Path 2768" d="M0,0H64V64H0Z" fill="none"/>
+  <circle id="Ellipse_418" data-name="Ellipse 418" cx="23.998" cy="23.998" r="23.998" transform="translate(7.691 7.584)" fill="none" stroke="#354a5c" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <line id="Line_1389" data-name="Line 1389" transform="translate(24.241 26.617)" fill="none" stroke="#354a5c" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <line id="Line_1390" data-name="Line 1390" transform="translate(39.964 26.617)" fill="none" stroke="#354a5c" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <path id="Path_2769" data-name="Path 2769" d="M9.5,17a9.333,9.333,0,0,1,13.333,0" transform="translate(15.833 23.666)" fill="none" stroke="#354a5c" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+</svg>
