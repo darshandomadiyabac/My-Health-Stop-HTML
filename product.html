@@ -1,0 +1,749 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+<meta name="generator" content="Hugo 0.72.0">
+<title>MyHealthtop</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-utilities.min.css">
+<link rel="stylesheet" href="css/utilities.css">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/assets/owl.carousel.min.css'>
+
+<!-- Bootstrap core CSS -->
+
+<!-- Custom styles for this template -->
+
+</head>
+<body>
+<header class="bg-white">
+    <div class="container container-full-width">
+        <div class="row">
+            <div class="col-md-12 d-lg-flex align-items-center">
+                <div class="d-flex"> <a href="#"> <img src="images/logo.png" alt="" class="logo-icon" /></a> </div>
+                <div class="search-main">
+                    <div class="dropdown"> <a class="btn dropdown-toggle shadow-focus-none border-0 bg-white border-radius-24 text-start" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"> All </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                        </ul>
+                    </div>
+                    <div class="d-flex align-items-center w-100 mt-sm-0 mt-3"> <span class="ms-3"><img src="images/search.svg" alt="" /></span>
+                        <input class="form-control me-2 shadow-focus-none border-0 bg-transparent fs-16 fw-400 " type="search" placeholder="Search treatments here..." aria-label="Search">
+                        <button class="btn btn-primary border-radius-24 fs-16 px-4 ms-sm-auto" type="submit">Search</button>
+                    </div>
+                </div>
+                <div class="d-flex ms-auto responsive-card ">
+                    <div class="dropdown">
+                        <button class="btn shadow-focus-none px-0 " type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false"> <span class="hover-div d-flex align-items-center rounded-circle ms-auto"> <img src="images/user.svg" alt="" class="logo-icon2" ></span> </button>
+                        <ul class="dropdown-menu border-0 shadow border-radius-15 p-3" aria-labelledby="dropdownMenuButton2">
+                            <li class="mb-2"><a class="dropdown-item text-dark-blue fw-400 fs-16" href="#">My Profile </a></li>
+                            <li class="mb-2"><a class="dropdown-item" href="#">My Orders</a></li>
+                            <li class="mb-2"><a class="dropdown-item" href="#">Saved Cards</a></li>
+                            <li class="mb-2"><a class="dropdown-item" href="#">My Address</a></li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                    </div>
+                    <a href="#" class="mx-1 d-flex align-items-center"><span class="hover-div d-flex align-items-center rounded-circle ms-auto"> <img src="images/heart.svg" alt="" class="logo-icon2" ></span></a>
+                    <div class="dropdown add-card-dropdown  ">
+                        <button class="btn shadow-focus-none px-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"> <span class="hover-div d-flex align-items-center rounded-circle ms-auto"> <img src="images/shopping-cart.svg" alt="" class="logo-icon2" ></span> </button>
+                        <ul class="dropdown-menu border-0 shadow pt-3 pb-0 border-radius-15" aria-labelledby="dropdownMenuButton1">
+                            <li class="px-3 border-bottom pb-2" >
+                                <div class="d-flex align-items-center ">
+                                    <div class="d-flex"> <span class="img-1 me-3"> <img src="images/danilo-alvesd-a.png" /> </span>
+                                        <div>
+                                            <h5 class="text-dark-blue fw-400 fs-16 mb-0">Spiriva Handihaler</h5>
+                                            <p class="text-dark-blue fw-bold fs-16 mb-0">£10.00</p>
+                                        </div>
+                                    </div>
+                                    <span class="delete-icon d-flex align-items-center bg-light-gray rounded-circle ms-auto"> <img src="images/shopping-cart1.svg" alt="" class=""></span> </div>
+                            </li>
+                            <li class="px-3  pb-3 mt-3" >
+                                <div class="d-flex align-items-center ">
+                                    <div class="d-flex"> <span class="img-1 me-3"> <img src="images/danilo-alvesd-a.png" /> </span>
+                                        <div>
+                                            <h5 class="text-dark-blue fw-400 fs-16 mb-0">Spiriva Handihaler</h5>
+                                            <p class="text-dark-blue fw-bold fs-16 mb-0">£10.00</p>
+                                        </div>
+                                    </div>
+                                    <span class="delete-icon d-flex align-items-center bg-light-gray rounded-circle ms-auto"> <img src="images/shopping-cart1.svg" alt="" class=""></span> </div>
+                            </li>
+                            <li>
+                                <button class="btn btn-primary border-radius-24 fs-16 px-4 ms-sm-auto py-3 w-100" type="submit">View all products (3 items)</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="top-menu bg-white ">
+    <div class="container container-full-width">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <nav class="navbar navbar-expand-lg  ">
+                    <div class="container-fluid p-0"> <a class="navbar-brand d-block d-lg-none" href="#">&nbsp;</a>
+                        <button class="navbar-toggler collapsed p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
+                        <div class="hamburger-toggle">
+                            <div class="hamburger"> <span></span> <span></span> <span></span> </div>
+                        </div>
+                        </button>
+                        <div class="collapse navbar-collapse " id="navbar-content">
+                            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown "> <a class="nav-link dropdown-toggle first-menu" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Medications</a>
+                                    <ul class="dropdown-menu  ">
+                                        <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Man's Health</a>
+                                            <ul class="dropdown-menu ">
+                                                <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Hair Loss!</a>
+                                                    <ul class="dropdown-menu dropdown-submenu ">
+                                                        <li>
+                                                            <p class="dropdown-item text-dark-blue mb-0 fw-800">Treatments Available</p>
+                                                        </li>
+                                                        <li><a class="dropdown-item " href="">Hair Loss T1</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T2</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T3</a></li>
+                                                        <li><a class="dropdown-item" href="">
+                                                            <button class="w-100 btn btn-primary border-radius-24 fs-16 px-4" type="submit">View all products</button>
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Premature Ejaculation</a>
+                                                    <ul class="dropdown-menu dropdown-submenu ">
+                                                        <li>
+                                                            <p class="dropdown-item text-dark-blue mb-0 fw-800">Treatments Available</p>
+                                                        </li>
+                                                        <li><a class="dropdown-item " href="">Hair Loss T1</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T2</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T3</a></li>
+                                                        <li><a class="dropdown-item" href="">
+                                                            <button class="w-100 btn btn-primary border-radius-24 fs-16 px-4" type="submit">View all products</button>
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Low Testosterone</a>
+                                                    <ul class="dropdown-menu dropdown-submenu ">
+                                                        <li>
+                                                            <p class="dropdown-item text-dark-blue mb-0 fw-800">Treatments Available</p>
+                                                        </li>
+                                                        <li><a class="dropdown-item " href="">Hair Loss T1</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T2</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T3</a></li>
+                                                        <li><a class="dropdown-item" href="">
+                                                            <button class="w-100 btn btn-primary border-radius-24 fs-16 px-4" type="submit">View all products</button>
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Women's Health</a>
+                                            <ul class="dropdown-menu ">
+                                                <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Hair Loss!</a>
+                                                    <ul class="dropdown-menu dropdown-submenu ">
+                                                        <li>
+                                                            <p class="dropdown-item text-dark-blue mb-0 fw-800">Treatments Available</p>
+                                                        </li>
+                                                        <li><a class="dropdown-item " href="">Hair Loss T1</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T2</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T3</a></li>
+                                                        <li><a class="dropdown-item" href="">
+                                                            <button class="w-100 btn btn-primary border-radius-24 fs-16 px-4" type="submit">View all products</button>
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Premature Ejaculation</a>
+                                                    <ul class="dropdown-menu dropdown-submenu ">
+                                                        <li>
+                                                            <p class="dropdown-item text-dark-blue mb-0 fw-800">Treatments Available</p>
+                                                        </li>
+                                                        <li><a class="dropdown-item " href="">Hair Loss T1</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T2</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T3</a></li>
+                                                        <li><a class="dropdown-item" href="">
+                                                            <button class="w-100 btn btn-primary border-radius-24 fs-16 px-4" type="submit">View all products</button>
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Low Testosterone</a>
+                                                    <ul class="dropdown-menu dropdown-submenu ">
+                                                        <li>
+                                                            <p class="dropdown-item text-dark-blue mb-0 fw-800">Treatments Available</p>
+                                                        </li>
+                                                        <li><a class="dropdown-item " href="">Hair Loss T1</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T2</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T3</a></li>
+                                                        <li><a class="dropdown-item" href="">
+                                                            <button class="w-100 btn btn-primary border-radius-24 fs-16 px-4" type="submit">View all products</button>
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Skin Condition</a>
+                                            <ul class="dropdown-menu ">
+                                                <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Hair Loss!</a>
+                                                    <ul class="dropdown-menu dropdown-submenu ">
+                                                        <li>
+                                                            <p class="dropdown-item text-dark-blue mb-0 fw-800">Treatments Available</p>
+                                                        </li>
+                                                        <li><a class="dropdown-item " href="">Hair Loss T1</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T2</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T3</a></li>
+                                                        <li><a class="dropdown-item" href="">
+                                                            <button class="w-100 btn btn-primary border-radius-24 fs-16 px-4" type="submit">View all products</button>
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Premature Ejaculation</a>
+                                                    <ul class="dropdown-menu dropdown-submenu ">
+                                                        <li>
+                                                            <p class="dropdown-item text-dark-blue mb-0 fw-800">Treatments Available</p>
+                                                        </li>
+                                                        <li><a class="dropdown-item " href="">Hair Loss T1</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T2</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T3</a></li>
+                                                        <li><a class="dropdown-item" href="">
+                                                            <button class="w-100 btn btn-primary border-radius-24 fs-16 px-4" type="submit">View all products</button>
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Low Testosterone</a>
+                                                    <ul class="dropdown-menu dropdown-submenu ">
+                                                        <li>
+                                                            <p class="dropdown-item text-dark-blue mb-0 fw-800">Treatments Available</p>
+                                                        </li>
+                                                        <li><a class="dropdown-item " href="">Hair Loss T1</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T2</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T3</a></li>
+                                                        <li><a class="dropdown-item" href="">
+                                                            <button class="w-100 btn btn-primary border-radius-24 fs-16 px-4" type="submit">View all products</button>
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">General Health</a>
+                                            <ul class="dropdown-menu ">
+                                                <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Hair Loss!</a>
+                                                    <ul class="dropdown-menu dropdown-submenu ">
+                                                        <li>
+                                                            <p class="dropdown-item text-dark-blue mb-0 fw-800">Treatments Available</p>
+                                                        </li>
+                                                        <li><a class="dropdown-item " href="">Hair Loss T1</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T2</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T3</a></li>
+                                                        <li><a class="dropdown-item" href="">
+                                                            <button class="w-100 btn btn-primary border-radius-24 fs-16 px-4" type="submit">View all products</button>
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Premature Ejaculation</a>
+                                                    <ul class="dropdown-menu dropdown-submenu ">
+                                                        <li>
+                                                            <p class="dropdown-item text-dark-blue mb-0 fw-800">Treatments Available</p>
+                                                        </li>
+                                                        <li><a class="dropdown-item " href="">Hair Loss T1</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T2</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T3</a></li>
+                                                        <li><a class="dropdown-item" href="">
+                                                            <button class="w-100 btn btn-primary border-radius-24 fs-16 px-4" type="submit">View all products</button>
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Low Testosterone</a>
+                                                    <ul class="dropdown-menu dropdown-submenu ">
+                                                        <li>
+                                                            <p class="dropdown-item text-dark-blue mb-0 fw-800">Treatments Available</p>
+                                                        </li>
+                                                        <li><a class="dropdown-item " href="">Hair Loss T1</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T2</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T3</a></li>
+                                                        <li><a class="dropdown-item" href="">
+                                                            <button class="w-100 btn btn-primary border-radius-24 fs-16 px-4" type="submit">View all products</button>
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Sexual Health</a>
+                                            <ul class="dropdown-menu ">
+                                                <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Hair Loss!</a>
+                                                    <ul class="dropdown-menu dropdown-submenu ">
+                                                        <li>
+                                                            <p class="dropdown-item text-dark-blue mb-0 fw-800">Treatments Available</p>
+                                                        </li>
+                                                        <li><a class="dropdown-item " href="">Hair Loss T1</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T2</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T3</a></li>
+                                                        <li><a class="dropdown-item" href="">
+                                                            <button class="w-100 btn btn-primary border-radius-24 fs-16 px-4" type="submit">View all products</button>
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Premature Ejaculation</a>
+                                                    <ul class="dropdown-menu dropdown-submenu ">
+                                                        <li>
+                                                            <p class="dropdown-item text-dark-blue mb-0 fw-800">Treatments Available</p>
+                                                        </li>
+                                                        <li><a class="dropdown-item " href="">Hair Loss T1</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T2</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T3</a></li>
+                                                        <li><a class="dropdown-item" href="">
+                                                            <button class="w-100 btn btn-primary border-radius-24 fs-16 px-4" type="submit">View all products</button>
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Low Testosterone</a>
+                                                    <ul class="dropdown-menu dropdown-submenu ">
+                                                        <li>
+                                                            <p class="dropdown-item text-dark-blue mb-0 fw-800">Treatments Available</p>
+                                                        </li>
+                                                        <li><a class="dropdown-item " href="">Hair Loss T1</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T2</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T3</a></li>
+                                                        <li><a class="dropdown-item" href="">
+                                                            <button class="w-100 btn btn-primary border-radius-24 fs-16 px-4" type="submit">View all products</button>
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Chronic Conditions</a>
+                                            <ul class="dropdown-menu ">
+                                                <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Hair Loss!</a>
+                                                    <ul class="dropdown-menu dropdown-submenu ">
+                                                        <li>
+                                                            <p class="dropdown-item text-dark-blue mb-0 fw-800">Treatments Available</p>
+                                                        </li>
+                                                        <li><a class="dropdown-item " href="">Hair Loss T1</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T2</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T3</a></li>
+                                                        <li><a class="dropdown-item" href="">
+                                                            <button class="w-100 btn btn-primary border-radius-24 fs-16 px-4" type="submit">View all products</button>
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Premature Ejaculation</a>
+                                                    <ul class="dropdown-menu dropdown-submenu ">
+                                                        <li>
+                                                            <p class="dropdown-item text-dark-blue mb-0 fw-800">Treatments Available</p>
+                                                        </li>
+                                                        <li><a class="dropdown-item " href="">Hair Loss T1</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T2</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T3</a></li>
+                                                        <li><a class="dropdown-item" href="">
+                                                            <button class="w-100 btn btn-primary border-radius-24 fs-16 px-4" type="submit">View all products</button>
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Low Testosterone</a>
+                                                    <ul class="dropdown-menu dropdown-submenu ">
+                                                        <li>
+                                                            <p class="dropdown-item text-dark-blue mb-0 fw-800">Treatments Available</p>
+                                                        </li>
+                                                        <li><a class="dropdown-item " href="">Hair Loss T1</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T2</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T3</a></li>
+                                                        <li><a class="dropdown-item" href="">
+                                                            <button class="w-100 btn btn-primary border-radius-24 fs-16 px-4" type="submit">View all products</button>
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Travel Health</a>
+                                            <ul class="dropdown-menu ">
+                                                <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Hair Loss!</a>
+                                                    <ul class="dropdown-menu dropdown-submenu ">
+                                                        <li>
+                                                            <p class="dropdown-item text-dark-blue mb-0 fw-800">Treatments Available</p>
+                                                        </li>
+                                                        <li><a class="dropdown-item " href="">Hair Loss T1</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T2</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T3</a></li>
+                                                        <li><a class="dropdown-item" href="">
+                                                            <button class="w-100 btn btn-primary border-radius-24 fs-16 px-4" type="submit">View all products</button>
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Premature Ejaculation</a>
+                                                    <ul class="dropdown-menu dropdown-submenu ">
+                                                        <li>
+                                                            <p class="dropdown-item text-dark-blue mb-0 fw-800">Treatments Available</p>
+                                                        </li>
+                                                        <li><a class="dropdown-item " href="">Hair Loss T1</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T2</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T3</a></li>
+                                                        <li><a class="dropdown-item" href="">
+                                                            <button class="w-100 btn btn-primary border-radius-24 fs-16 px-4" type="submit">View all products</button>
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Low Testosterone</a>
+                                                    <ul class="dropdown-menu dropdown-submenu ">
+                                                        <li>
+                                                            <p class="dropdown-item text-dark-blue mb-0 fw-800">Treatments Available</p>
+                                                        </li>
+                                                        <li><a class="dropdown-item " href="">Hair Loss T1</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T2</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T3</a></li>
+                                                        <li><a class="dropdown-item" href="">
+                                                            <button class="w-100 btn btn-primary border-radius-24 fs-16 px-4" type="submit">View all products</button>
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Testing Kits</a>
+                                            <ul class="dropdown-menu ">
+                                                <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Hair Loss!</a>
+                                                    <ul class="dropdown-menu dropdown-submenu ">
+                                                        <li>
+                                                            <p class="dropdown-item text-dark-blue mb-0 fw-800">Treatments Available</p>
+                                                        </li>
+                                                        <li><a class="dropdown-item " href="">Hair Loss T1</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T2</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T3</a></li>
+                                                        <li><a class="dropdown-item" href="">
+                                                            <button class="w-100 btn btn-primary border-radius-24 fs-16 px-4" type="submit">View all products</button>
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Premature Ejaculation</a>
+                                                    <ul class="dropdown-menu dropdown-submenu ">
+                                                        <li>
+                                                            <p class="dropdown-item text-dark-blue mb-0 fw-800">Treatments Available</p>
+                                                        </li>
+                                                        <li><a class="dropdown-item " href="">Hair Loss T1</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T2</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T3</a></li>
+                                                        <li><a class="dropdown-item" href="">
+                                                            <button class="w-100 btn btn-primary border-radius-24 fs-16 px-4" type="submit">View all products</button>
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropend"> <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Low Testosterone</a>
+                                                    <ul class="dropdown-menu dropdown-submenu ">
+                                                        <li>
+                                                            <p class="dropdown-item text-dark-blue mb-0 fw-800">Treatments Available</p>
+                                                        </li>
+                                                        <li><a class="dropdown-item " href="">Hair Loss T1</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T2</a></li>
+                                                        <li><a class="dropdown-item" href="">Hair Loss T3</a></li>
+                                                        <li><a class="dropdown-item" href="">
+                                                            <button class="w-100 btn btn-primary border-radius-24 fs-16 px-4" type="submit">View all products</button>
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown "> <a class="nav-link dropdown-toggle first-menu" href="#" >Shop Products</a></li>
+                                <li class="nav-item dropdown "> <a class="nav-link dropdown-toggle first-menu" href="#" >Diagnostic Tests</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="free-deliver-text">
+    <div class="container container-full-width position-relative">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p class="fs-16 text-white mb-0">Free delivery over £25. Dispensed by registered UK doctors.</p>
+                <span class="ms-auto position-absolute"> <img  src="images/circle-x.svg" alt="" class="img-fluid" /></span> </div>
+        </div>
+    </div>
+</section>
+<section class="prodcuct-main ">
+    <div class="container container-full-width">
+        <div class="row">
+            <div class="col-md-4 col-lg-4 col-xl-3">
+                <div class="bg-white bor border-radius-16 p-3">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button shadow-focus-none shadow-none  fs-16 fw-bold text-dark-blue " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> Men's Heath </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body ">
+                                    <ul class="unstyled centered m-0 p-0">
+                                        <li class="mb-3">
+                                            <input class="styled-checkbox" id="styled-checkbox-1" type="checkbox" value="value1">
+                                            <label for="styled-checkbox-1" class="fs-16 fw-400 text-dark-blue">General Health</label>
+                                        </li>
+                                        <li class="mb-3">
+                                            <input class="styled-checkbox" id="styled-checkbox-2" type="checkbox" value="value2" checked>
+                                            <label for="styled-checkbox-2" class="fs-16 fw-400 text-dark-blue">Chronic Conditions</label>
+                                        </li>
+                                        <li class="mb-3">
+                                            <input class="styled-checkbox" id="styled-checkbox-3" type="checkbox" value="value3">
+                                            <label for="styled-checkbox-3" class="fs-16 fw-400 text-dark-blue">Men's Health</label>
+                                        </li>
+                                        <li class="mb-3">
+                                            <input class="styled-checkbox" id="styled-checkbox-4" type="checkbox" value="value4">
+                                            <label for="styled-checkbox-4" class="fs-16 fw-400 text-dark-blue">Women's Health</label>
+                                        </li>
+                                        <li class="mb-3">
+                                            <input class="styled-checkbox" id="styled-checkbox-5" type="checkbox" value="value5">
+                                            <label for="styled-checkbox-5" class="fs-16 fw-400 text-dark-blue">Sexual Health</label>
+                                        </li>
+                                    </ul>
+                                    <button class="btn see-all-btn fw-400 shadow-focus-none  border-radius-24 fs-16 px-5" type="submit">See all</button>
+                                    <hr / class="mb-0 mt-3">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed fs-16 fw-bold text-dark-blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Brand </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="unstyled centered m-0 p-0">
+                                        <li>
+                                            <input class="styled-checkbox" id="styled-checkbox-6" type="checkbox" value="value6">
+                                            <label for="styled-checkbox-6" class="fs-16 fw-400 text-dark-blue">lorem ipsum</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed fs-16 fw-bold text-dark-blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Strength </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="unstyled centered m-0 p-0">
+                                        <li>
+                                            <input class="styled-checkbox" id="styled-checkbox-7" type="checkbox" value="value7">
+                                            <label for="styled-checkbox-7" class="fs-16 fw-400 text-dark-blue">lorem ipsum</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-0">
+                            <h2 class="accordion-header" id="headingForth">
+                                <button class="accordion-button collapsed fs-16 fw-bold text-dark-blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseForth"> Size </button>
+                            </h2>
+                            <div id="collapseForth" class="accordion-collapse collapse" aria-labelledby="headingForth" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="unstyled centered m-0 p-0">
+                                        <li>
+                                            <input class="styled-checkbox" id="styled-checkbox-8" type="checkbox" value="value8">
+                                            <label for="styled-checkbox-8" class="fs-16 fw-400 text-dark-blue">lorem ipsum</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="px-3 pb-3 pt-2">
+                        <ul class="unstyled centered m-0 p-0">
+                            <li class="">
+                                <input class="styled-checkbox" id="styled-checkbox-9" type="checkbox" value="value9">
+                                <label for="styled-checkbox-9" class="fs-16 fw-400 text-dark-blue">In stock only</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 col-lg-8 col-xl-9 product-right-main">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="breadcrumb mb-3 mt-3">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">General Health</a></li> 
+                            <li>Acid Reflux</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="fw-bold text-dark-blue main-title" >Acid Reflux (6)</h2>
+                    </div>
+                    <div class="col-md-6 ms-auto text-end">
+                        <div class="dropdown"> <a class="btn dropdown-toggle sort-by-btn shadow-focus-none border-0  text-dark fw-400 bg-white border-radius-24 text-start " href="#" role="button" id="dropdownMenuLink1" data-bs-toggle="dropdown" aria-expanded="false"> Sort by </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-4 mb-3">
+                        <div class="card p-3 w-100 border-0 border-radius-15">
+                            <div class="overflow-hidden hover-div position-relative"> <img src="images/danilo-alvesd-a.png" class="img-fluid product-img" alt="...">
+                                <div class="position-absolute heart-icon"> <a href="javascript:void(0)" class="click-like " > <span class="like-1 align-items-center justify-content-center p-2 "> <img src="images/heart-1.svg" class="" alt="..."></span> <span class="like-2  align-items-center justify-content-center p-2"><img src="images/299063_heart_icon.svg" class="" alt="..."> </span> </a> </div>
+                            </div>
+                            <div class="card-body px-0 pb-0 d-flex ">
+                                <div>
+                                    <h5 class="card-title text-dark-blue fw-300">Spiriva Handihaler</h5>
+                                    <p class="card-text text-dark-blue fw-bold">£10.00<span class="fs-16 fw-300">£12.00</span></p>
+                                </div>
+                                <span class="checkout d-flex align-items-center rounded-circle ms-auto"> <img src="images/shopping-cart1.svg" alt="" class=""></span> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-4 mb-3">
+                        <div class="card p-3 w-100 border-0 border-radius-15">
+                            <div class="overflow-hidden hover-div position-relative"> <img src="images/danilo-alvesd-a.png" class="img-fluid product-img" alt="...">
+                                <div class="position-absolute heart-icon"> <a href="javascript:void(0)" class="click-like " > <span class="like-1 align-items-center justify-content-center p-2 "> <img src="images/heart-1.svg" class="" alt="..."></span> <span class="like-2  align-items-center justify-content-center p-2"><img src="images/299063_heart_icon.svg" class="" alt="..."> </span> </a> </div>
+                            </div>
+                            <div class="card-body px-0 pb-0 d-flex ">
+                                <div>
+                                    <h5 class="card-title text-dark-blue fw-300">Spiriva Handihaler</h5>
+                                    <p class="card-text text-dark-blue fw-bold">£10.00<span class="fs-16 fw-300">£12.00</span></p>
+                                </div>
+                                <span class="checkout d-flex align-items-center rounded-circle ms-auto"> <img src="images/shopping-cart1.svg" alt="" class=""></span> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-4 mb-3">
+                        <div class="card p-3 w-100 border-0 border-radius-15">
+                            <div class="overflow-hidden hover-div position-relative"> <img src="images/danilo-alvesd-a.png" class="img-fluid product-img" alt="...">
+                                <div class="position-absolute heart-icon"> <a href="javascript:void(0)" class="click-like " > <span class="like-1 align-items-center justify-content-center p-2 "> <img src="images/heart-1.svg" class="" alt="..."></span> <span class="like-2  align-items-center justify-content-center p-2"><img src="images/299063_heart_icon.svg" class="" alt="..."> </span> </a> </div>
+                            </div>
+                            <div class="card-body px-0 pb-0 d-flex ">
+                                <div>
+                                    <h5 class="card-title text-dark-blue fw-300">Spiriva Handihaler</h5>
+                                    <p class="card-text text-dark-blue fw-bold">£10.00<span class="fs-16 fw-300">£12.00</span></p>
+                                </div>
+                                <span class="checkout d-flex align-items-center rounded-circle ms-auto"> <img src="images/shopping-cart1.svg" alt="" class=""></span> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-4 mb-3">
+                        <div class="card p-3 w-100 border-0 border-radius-15">
+                            <div class="overflow-hidden hover-div position-relative"> <img src="images/danilo-alvesd-a.png" class="img-fluid product-img" alt="...">
+                                <div class="position-absolute heart-icon"> <a href="javascript:void(0)" class="click-like " > <span class="like-1 align-items-center justify-content-center p-2 "> <img src="images/heart-1.svg" class="" alt="..."></span> <span class="like-2  align-items-center justify-content-center p-2"><img src="images/299063_heart_icon.svg" class="" alt="..."> </span> </a> </div>
+                            </div>
+                            <div class="card-body px-0 pb-0 d-flex ">
+                                <div>
+                                    <h5 class="card-title text-dark-blue fw-300">Spiriva Handihaler</h5>
+                                    <p class="card-text text-dark-blue fw-bold">£10.00<span class="fs-16 fw-300">£12.00</span></p>
+                                </div>
+                                <span class="checkout d-flex align-items-center rounded-circle ms-auto"> <img src="images/shopping-cart1.svg" alt="" class=""></span> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-4 mb-3">
+                        <div class="card p-3 w-100 border-0 border-radius-15">
+                            <div class="overflow-hidden hover-div position-relative"> <img src="images/danilo-alvesd-a.png" class="img-fluid product-img" alt="...">
+                                <div class="position-absolute heart-icon"> <a href="javascript:void(0)" class="click-like " > <span class="like-1 align-items-center justify-content-center p-2 "> <img src="images/heart-1.svg" class="" alt="..."></span> <span class="like-2  align-items-center justify-content-center p-2"><img src="images/299063_heart_icon.svg" class="" alt="..."> </span> </a> </div>
+                            </div>
+                            <div class="card-body px-0 pb-0 d-flex ">
+                                <div>
+                                    <h5 class="card-title text-dark-blue fw-300">Spiriva Handihaler</h5>
+                                    <p class="card-text text-dark-blue fw-bold">£10.00<span class="fs-16 fw-300">£12.00</span></p>
+                                </div>
+                                <span class="checkout d-flex align-items-center rounded-circle ms-auto"> <img src="images/shopping-cart1.svg" alt="" class=""></span> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-4 mb-3">
+                        <div class="card p-3 w-100 border-0 border-radius-15">
+                            <div class="overflow-hidden hover-div position-relative"> <img src="images/danilo-alvesd-a.png" class="img-fluid product-img" alt="...">
+                                <div class="position-absolute heart-icon"> <a href="javascript:void(0)" class="click-like " > <span class="like-1 align-items-center justify-content-center p-2 "> <img src="images/heart-1.svg" class="" alt="..."></span> <span class="like-2  align-items-center justify-content-center p-2"><img src="images/299063_heart_icon.svg" class="" alt="..."> </span> </a> </div>
+                            </div>
+                            <div class="card-body px-0 pb-0 d-flex ">
+                                <div>
+                                    <h5 class="card-title text-dark-blue fw-300">Spiriva Handihaler</h5>
+                                    <p class="card-text text-dark-blue fw-bold">£10.00<span class="fs-16 fw-300">£12.00</span></p>
+                                </div>
+                                <span class="checkout d-flex align-items-center rounded-circle ms-auto"> <img src="images/shopping-cart1.svg" alt="" class=""></span> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="join-now-main">
+    <div class="container container-full-width">
+        <div class="row align-items-center">
+            <div class="col-md-5">
+                <h2 class="fw-bold text-dark-blue">Join now!</h2>
+                <p class="mb-md-0">Subscribe to our newsletter & stay in touch.</p>
+            </div>
+            <div class="col-md-7">
+                <div class="search-main">
+                    <div class="d-flex align-items-center w-100 mt-sm-0"> <span class="ms-3"><img src="images/mail.svg" class="email-icon" alt=""></span>
+                        <input class="form-control me-2 shadow-focus-none border-0 bg-transparent fs-16 fw-400 " type="search" placeholder="Enter your email address" aria-label="Search">
+                        <button class="btn btn-primary border-radius-24 fs-16 px-4 py-2 ms-sm-auto" type="submit">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container container-full-width">
+        <div class="row">
+            <div class="col-md-4 mb-3 mb-md-0"> <span class="d-block"> <img src="images/footer-logo-1.svg" class="img-fluid" /> </span> <span class="d-block">
+                <h4 class="fw-bold mt-3"> My Health <br / class="d-none d-md-block">
+                    Shop </h4>
+                </span> </div>
+            <div class="col-md-8 box-main">
+                <div class="box1">
+                    <h3 class="fw-bold">About Us</h3>
+                    <ul class="m-0 p-0">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="box1">
+                    <h3 class="fw-bold">Our Products</h3>
+                    <ul class="m-0 p-0">
+                        <li><a href="#">Medication</a></li>
+                        <li><a href="#">Diagnostics Tests</a></li>
+                    </ul>
+                </div>
+                <div class="box1">
+                    <h3 class="fw-bold">Help</h3>
+                    <ul class="m-0 p-0">
+                        <li><a href="#">Support Hub</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy & Cookies</a></li>
+                        <li><a href="#">Return & Refunds</a></li>
+                    </ul>
+                </div>
+                <div class="box1">
+                    <h3 class="fw-bold">Business</h3>
+                    <ul class="m-0 p-0">
+                        <li><a href="#">Business Center</a></li>
+                        <li><a href="#">Marketing Partnership</a></li>
+                    </ul>
+                </div>
+                <div> </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <div class="container container-full-width">
+        <div class="row">
+            <div class="col-md-12 ">
+                <p class="mb-3">Use of this website constitutes acceptance of the Terms and Conditions and Privacy Policy. All copyrights, trade marks, service marks belong to the corresponding owners.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/bootstrap.bundle.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+<script>
+$(document).ready(function(){
+  $(".click-like").click(function(){
+    $(this).toggleClass("active");
+  });
+});
+
+
+</script>
+</body>
+</html>
